@@ -19,3 +19,13 @@ a:visited {
     color: unset;
     text-decoration: none;
 }
+.dsmeta-conteiner {
+  /* div que contém a div card */
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+#sales {
+  padding: 40px 10px;
+
+}

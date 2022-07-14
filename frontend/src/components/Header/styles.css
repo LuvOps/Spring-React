@@ -1,0 +1,40 @@
+.header {
+    height: 220px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dsmeta-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmeta-logo-container img {
+    width: 235;
+}
+
+.dsmeta-logo-container h1 {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.dsmeta-logo-container p {
+    font-size: 14px;
+    font-weight: 300px;
+}
+.dsmeta-red-btn {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.dsmeta-red-btn img{
+    width: 19px;}

@@ -1,0 +1,103 @@
+.dsmeta-card {
+    background: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+  
+
+}
+
+.dsmeta-sales-title {
+    color: #676FFF;
+    font-weight: 700;
+    size: 24px;
+    margin-bottom: 20px;
+}
+.dsmeta-form-control-container {
+    margin: 16px;
+    max-width: 300px;
+}
+
+.dsmeta-form-control {
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    left: 20px;
+    top: 352px;
+    padding: 0px 20px;
+    color: #9AAABE;
+}
+
+.dsmeta-sales-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    /* coloca linhas entre as bordas das linhas */
+}
+
+.dsmeta-sales-table thead {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #E9E9E9;
+    font-weight: 700;
+}
+
+.dsmeta-sales-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.dsmeta-sales-table tbody tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+
+}
+
+.dsmeta-sales-table tbody tr:nth-child(odd) {
+    /* seleciona o filho do tbory na posicao impar*/
+    background-color: #242C3B;
+}
+
+.dsmeta-sales-table tbody tr:hover {
+    background-color: #384459;
+}
+
+.dsmeta-red-btn-conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+ 
+.show576{
+    display: none;
+}
+@media (min-width: 576px){/*a partir desse pixel*/
+    .show576{
+        display: table-cell;/*display normal de um elemento de um tabela*/
+}
+.dsmeta-card{
+    padding: 35px;
+}
+.dsmeta-sales-table tbody tr {
+    height: 62px;
+}
+.dsmeta-sales-table tbody {
+    font-size: 21px;
+}
+}
+
+.show992{
+    display: none;
+}
+@media (min-width: 992px){/*a partir desse pixel*/
+    .show992{
+        display: table-cell;/*display normal de um elemento de um tabela*/
+}
+}
